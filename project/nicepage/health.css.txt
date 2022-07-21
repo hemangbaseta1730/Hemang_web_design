@@ -1,0 +1,241 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.headlog{
+	background-color:;
+	width: 15%;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+.headnav{
+	background-color:yellow;
+	width:85%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.baner{
+
+	background-size: 100% 100%;
+	background-image: url(DSC06419.jpg);
+	width: 100%;
+	height:auto;
+	float: left;
+	padding: 100px;
+	color:blue;
+	font-size: 30px;
+
+}
+
+.box1{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	
+}
+.box2{
+	width:50%;
+	height:auto;
+	float:left;
+	padding:0px;
+}
+.button{
+	border-radius: 0px;
+	text-align: center;
+	padding: 20px 80px;
+    color: #A74AC7;
+    margin: 20px 10px 0px 0px;
+    background-color: white;
+}
+.sidebar{
+	height: auto;
+	width: 10%;
+	background-color: white;
+	float: left;
+	padding: 0px;
+
+}
+.mainbar{
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 10px 0px 0px 0px;
+}
+.box3{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 100px 10px 10px 10px;
+	border-color: red;
+	
+}
+.box4{
+	width: 60%;
+	height: auto;
+	float: left;
+	padding: 45px 0px 56px 0px;
+    
+}
+.inerbox{
+	width: 28.33%;
+	height: auto;
+	float:left;
+	margin: 6px;
+	padding: 48px 5px 110px 10px ;
+	text-align:center;
+	background-color: gray;
+	color: white;
+	
+}
+.button1{
+	border-radius: 0px;
+	text-align: center;
+	padding: 20px 80px;
+    color: white;
+    margin: 20px 10px 0px 0px;
+    background-color:black;
+}
+.baner1{
+
+	background-size: 100% 100%;
+	background-image: url(DSC06419.jpg);
+	width: 100%;
+	height:auto;
+	float: left;
+	padding: 100px;
+	color:white;
+	font-size: 30px;
+}
+.box5{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 100px 10px 10px 10px;
+	border-color: red;
+	
+}
+.box6{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 50px;
+    
+}
+.button2{
+	border-radius: 0px;
+	text-align: center;
+	padding: 15px 150px;
+    color: white;
+    margin: 20px 10px 0px 0px;
+    background-color:black;
+}
+.inputbox{
+	width: 58%;
+	height:10%;
+	padding: 10px;
+}
+.baner2{
+	float: left;
+	background-color: #A74AC7 ;
+	height: auto;
+	width: 100%;
+	color: white;
+}
+.sidebar1{
+	height: 1px;
+	width: 10%;
+	background-color:  ;
+	float: left;
+	padding: 0px;
+}
+.mainbar1{
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+.baner2box1{
+	float: left;
+	width: 33.33%;
+	height: auto;
+	padding: 2px 2px 2px 2px;
+}
+
+.baner2inerbox1{
+	width: 10%;
+	height: auto;
+	color: white;
+	float: left;
+
+}
+.baner2inerbox2{
+	width: 90%;
+	height: auto;
+	color: white;
+	float: left;
+
+}
+.baner3{
+	float: left;
+	background-color: #A74AC7 ;
+	height: auto;
+	width: 100%;
+	color: white;
+	padding: 10px 0px 100px 5px;
+}
+.baner3box1{
+	float: left;
+	width: 33.33%;
+	height: auto;
+
+}
+.baner3inerbox1{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.baner3img1{
+	background-image: url(1.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img2{
+	background-image: url(2.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img3{
+	background-image: url(3.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img4{
+	background-image: url(4.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img5{
+	background-image: url(5.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img6{
+	background-image: url(6.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
