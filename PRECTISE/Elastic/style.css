@@ -53,9 +53,12 @@ body {
   }
   
 .navbar {
-    background-color: lightgray;
+    background-color: lightblue;
     height: 50px;
-    
+    text-decoration: none;
+}
+.navbar a{
+    text-align: right;
 }
 
 .banner1{
