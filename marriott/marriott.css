@@ -140,12 +140,15 @@
 
   .banner1 img{
     padding: 10px;
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
+    float: left;
   }
 
   .banner1 p{
     text-decoration: none;
     text-align: right;
+    float: right;
   }
+
   
