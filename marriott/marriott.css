@@ -70,14 +70,19 @@
     text-decoration: none;
   
   }
-  /*  responsive */
+  /*  responsive  main black top bar*/
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .navbar a {
 	float:none;	  
        }
 }
-
+*/
+/*  */
+.container
+{
+  padding:40px;
+}
 .col-main-content{
   background-color: black;
 }
@@ -85,33 +90,35 @@
   /* navbar 2 row */
  
   .white-nav{
+    
     height: auto;
     margin: auto;
     padding: 25px;
-    background-color: rgb(65, 65, 65);
+    background-color:white;
   }
   .white-nav img{
     padding-left: 20px;
     margin: auto;
     width: 150px;
-
+    background-color: black;
+    
   }
   .small-bar{
     float: right;
     padding-bottom: 50PX;
   }
   .small-bar a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 12px;
     padding-right: 20px;
   }
   .big-bar{
-    padding-top: 10px;
-    padding-left: 18%;
+    padding-top: 110px;
+    padding-left: 0%;
   }
   .big-bar a {
-    color: white;
+    color: black;
     text-decoration: none;  
     font-size: 12px;
     padding: 10px;
@@ -122,33 +129,142 @@
     width: 80%;
     height: 100px;
     padding: 20px;
-    background-color: gray;
+    position: absolute;
+    background-color: lightgray;
     margin-left: 10%;
-    border-radius: 5px;
+    border-radius: 30px;
     margin-top: 10px;
   }
-  .bg1 img{
-    height: 300px;
-    width: 1263px;
+
+
+  /* banner bg nd text */
+  .banner{
+    height: 900px;
+    background-size: cover;
+    background-image: url(img2.jpg);
+  }
+  .text-container{
+    padding: 10%;
+    justify-content:flex-start;
+    padding-top: 20%;
   }
 
-
-  .banner img{
-    height: 100%;
-    width: 100%;
+  .text-container h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: bold;
   }
 
-  .banner1 img{
-    padding: 10px;
-    height: 300px;
+  .new_btn{
+    color:red;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 5px;
+    margin-top:15px;
+    cursor: pointer;
+  }
+
+  /*   popular offer start*/
+
+  /* img1 */ 
+  .card-img
+  {
+    width:300px; 
+    height: 350px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+  /* border:2px solid #000; */
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+  .card-box-w
+  {
+    width: 200px;
+    height: 150px auto;
+    padding: 20px;
+    background: rgba(255, 253, 253, 0.71);
+    border-radius: 20px;
+    /* padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .new_btn1{
+    color:black;
     border-radius: 10px;
-    float: left;
+    border:none;
+    background-color: white;
+    padding: 10px;
+    margin-top:15px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .flex
+  {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .card
+  {
+    margin:20px;
   }
 
-  .banner1 p{
-    text-decoration: none;
-    text-align: right;
-    float: right;
-  }
+  /*img2 */
 
+  /* popular ofer end*/ 
+
+   /* hawali banner start*/
+   .img-hawali {
   
+    height: 700px;
+    
+    background-position: center;
+    
+   }
+
+   .hawali h4{
+    text-align: left;
+    color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+   }
+   .new_btn2{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+
+   }
+      /* second row apris nd chicgo */
+    .paris img{
+    float: left;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+   }
+  .chicago img{
+    float: right;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+   }
+   
+    /* hawali banner start*/
+
+
+   /* footer*/
+    .footer{
+      background-color: black;
+      color: white;
+    }
